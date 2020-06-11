@@ -17,6 +17,8 @@
   },
   "homepage": "https://github.com/benjisoft/Kim-Jong-Bot#readme",
   "dependencies": {
-    "discord.js": "^12.2.0"
+    "@google-cloud/translate": "^6.0.0",
+    "discord.js": "^12.2.0",
+    "number-to-words": "^1.2.4"
   }
 }
