@@ -9,7 +9,7 @@ client.on('ready', () => {
 client.on('guildMemberAdd', member => {
     var size = member.guild.members.cache.size;
     var english = converter.toWords(size)
-    member.setNickname("Kim Jon " + english);
+    member.setNickname("Kim Jong " + english);
 })
 
 client.login(process.env.discord_token);
